@@ -41,7 +41,9 @@ const App = () => {
           </div>
         </Layout>
       </div>
-      <div className="footer"></div>
+      <div className="footer">
+        <Typography.Title>Cryptoverse</Typography.Title>
+      </div>
     </div>
   );
 };
