@@ -42,7 +42,18 @@ const App = () => {
         </Layout>
       </div>
       <div className="footer">
-        <Typography.Title>Cryptoverse</Typography.Title>
+        <Typography.Title
+          level={5}
+          style={{ color: "white", textAlign: "centre" }}
+        >
+          Cryptoverse <br />
+          All rights reservered
+        </Typography.Title>
+        <Space>
+          <Link to="/">Home</Link>
+          <Link to="/exchanges">Exchanges</Link>
+          <Link to="/news">News</Link>
+        </Space>
       </div>
     </div>
   );
